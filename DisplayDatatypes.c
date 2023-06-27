@@ -11,15 +11,13 @@ int main()
 
     printf("Enter the Integer input : "); 
     scanf("%d", &Integer);
-    
-    
 
-    printf("\nEnter the Double input : ");
-    scanf("\n%lf", &Double);
+    printf("Enter the Double input : ");
+    scanf("%lf", &Double);
     
     printf("\nThe value of Integer is: %d", Integer);
     printf("\nThe value of Character is : %c", Character);
-    printf("\nThe value of Double is : %lf", Double);
+    printf("\nThe value of Double is : %.2lf", Double);
     printf("\n---");
 
 
